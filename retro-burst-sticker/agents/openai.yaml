@@ -1,0 +1,13 @@
+interface:
+  display_name: 复古爆炸贴纸
+  short_description: 将指定文字制作成红白复古爆炸贴纸，并输出透明背景图片
+  default_prompt: 使用 $retro-burst-sticker 把这段文字制作成红白复古爆炸贴纸。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
